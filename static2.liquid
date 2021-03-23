@@ -1,0 +1,47 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for block in section.blocks %}
+    <tr>
+      <td>{{ block.settings.name }}</td>
+      <td>{{ block.settings.description }}</td>
+      <td>{{ block.settings.size }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% schema %}
+  {
+    "name": "Static 1",
+    "settings": [],
+	"blocks": [
+		{
+			"type": "text",
+			"name": "Chart",
+			"settings": [
+				{
+                  "type": "text",
+                  "id": "name",
+                  "label": "Name"
+                },
+				{
+                  "type": "text",
+                  "id": "description",
+                  "label": "Short description"
+                },
+				{
+                  "type": "text",
+                  "id": "size",
+                  "label": "Size"
+                }
+			]
+		}
+	]
+  }
+{% endschema %}

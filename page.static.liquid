@@ -1,0 +1,25 @@
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item ">
+      
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <div class="rte">
+        {{ page.content }}
+      </div>
+      <div class="grid__item ">
+      <div class="rte">
+        {% section 'static2' %}
+      </div>
+      </div>
+      <div class="section-header text-center">
+      <h2>Item description</h2>
+      </div>
+      <div class="rte">
+        {% section 'static1' %}
+      </div>      
+    </div>
+  </div>
+</div>
