@@ -2,3 +2,5 @@
 Front end developer assignment for Baltic Assist
 Preview: 
 https://testfrontend.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaDkwWlhOMFpuSnZiblJsYm1RdWJYbHphRzl3YVdaNUxtTnZiUVk2QmtWVSIsImV4cCI6IjIwMjEtMDMtMjNUMDE6NTg6MzYuNjc2WiIsInB1ciI6InBlcm1hbmVudF9wYXNzd29yZF9ieXBhc3MifX0%3D--a65a43013c0e7357f4977daad130cfb4c8da9225&_fd=0&_sc=1&key=5c123c79d643e0d1084ff70dc4b1a5c44ea71f24cc527540cdc0768ad688951e
+
+Password: claybo
